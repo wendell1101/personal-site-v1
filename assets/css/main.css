@@ -1,0 +1,156 @@
+.text-orange{
+    color:#ff731c;
+}
+.text-primary{
+    color: var(--primary-color2);
+}
+.btn-primary{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    border-radius: 25px;
+    font-weight:bold;
+    background: #fff;
+    color: var(--primary-color2);
+    border: 2px solid var(--primary-color2);
+    height:50px;
+    width:170px;
+}
+.btn-primary:hover{
+    background: var(--primary-color2);
+    border: 2px solid #fff;
+  
+}
+.about-me-img{
+    width:100%;
+    height:100%;
+    opacity: .9;
+}
+/* icons */
+.skill-icon{
+    font-size:3rem;
+}
+.mobile-icon{
+    font-size:3rem;
+    color: var(--primary-color2);
+}
+
+.single-brand{
+    border: 1px solid var(--border-color);
+    text-align: center;
+    padding: 1.8rem 0rem;
+    margin: .9rem 0;
+    width: 180px;
+    height: 100px;
+    cursor: pointer;
+    transition: transform .4s ease;
+    margin: 0 auto;
+    margin-bottom:20px;
+}
+
+.single-brand > img{
+    width: 50%;
+}
+.single-brand:hover{
+    box-shadow: var(--box-shadow);
+    transform: scale(1.1);
+}
+.single-brand:hover > img{
+    filter: brightness(0.15);
+}
+
+
+
+#contact{
+    padding-top:150px;
+    padding-right:15px;
+    padding-left:15px;
+
+}
+
+.contact-field{
+    padding-left:15px!important;
+    border:1px solid gray;
+    border-radius: 5px;
+    padding:5px 0;
+}
+.btn-center{
+    margin:0 auto!important;
+}
+.message-btn{
+    margin-top:20px!important;
+}
+.navbar-right{
+    display:flex;
+    align-items: center!important;
+}
+/* FOOTER*/
+.footer{
+    height:100px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    background: var(--primary-color);
+    color:#fff;
+}
+.footer-icon{
+    line-height: 40px;
+    padding: 9px 11px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin-left:5px;
+}
+.twitter-bg:hover {color: #55acee;}
+.fcebook-bg:hover{color: #3b5998;}
+.github-bg:hover{color: #b4b7b8;} 
+.linkedin-bg:hover {color: #dd4b39;}
+.icon-up-bg:hover {color: var(--primary-color2);}
+
+/* back to top button */
+#button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    background-color: #fff;
+    border: 1px solid var(--primary-color);
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 20px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, 
+        opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+}
+#button .arrow{
+    font-size: 1.1rem;
+    width:100%;
+    height: 100%;
+    color:var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#button .arrow:hover{
+    color: #fff;
+}
+
+#button:hover {
+    cursor: pointer;
+    background-color: var(--primary-color);
+    border: 1px solid #fff;
+}
+#button:active {
+    background-color: #555;
+}
+#button.show {
+    opacity: 1;
+    visibility: visible;
+}
+  
